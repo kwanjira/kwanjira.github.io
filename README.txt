@@ -1,19 +1,18 @@
-Helios by HTML5 UP
+Astral by HTML5 UP
 html5up.net | @n33co
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-This is Helios, a brand new site template for HTML5 UP. It's clean, modern, and designed
-to take advantage of larger (well, wider) displays while still being capable of gracefully
-scaling down to fit all manner of smaller ones.
-	
-Demo images* courtesy of Michael Domaradzki, an awesome photographer I met over at
-deviantART. Check out his portfolio here:
+First of its kind on H5U! Astral features a flat, minimalistic design, a fully animated 
+interface (with noscript fallbacks), and styling for all basic page elements (including 
+blockquotes, tables and lists). Enjoy!
 
-http://md.photomerchant.net/
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
 
-(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
-and/or use any of Michaels's work without his explicit permission!)
+(* = Not included)
+
+Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
 
 AJ
 n33.co @n33co dribbble.com/n33
@@ -22,17 +21,13 @@ n33.co @n33co dribbble.com/n33
 Credits:
 
 	Demo Images:
-		Michael Domaradzki (md.photomerchant.net)
+		Unsplash (unsplash.com)
 		
 	Icons:
 		Font Awesome (fortawesome.github.com/Font-Awesome)
-
+		
 	Other:
 		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		CSS3 Pie (css3pie.com)
+		html5shiv.js (@afarkas @jdalton @jon_neal @rem)v
 		background-size polyfill (github.com/louisremi)
-		jquery.dropotron (n33.co)
-		jquery.scrolly (n33.co)
-		jquery.onvisible (n33.co)
 		skel (n33.co)
