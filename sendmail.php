@@ -4,7 +4,7 @@ $email = $_POST['email'];
 $phonenumber = $_POST['phonenumber'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
-$to = “contact@gmail.com”;
+$to = “princesskwann@gmail.com”;
 if(empty($name) OR empty($email) OR empty($subject) OR empty($message)){
 echo “<div class=’errors’>คุณกรอกข้อมูลไม่ครบทุกช่อง</div>”;
 }else{
