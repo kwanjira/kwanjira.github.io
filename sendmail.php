@@ -1,11 +1,14 @@
-<?php 
-$ToEmail = 'princesskwann@gmail.com'; 
-$EmailSubject = 'ติดต่อห้องพัก'; 
-$mailheader = "From: ".$_POST["email"]."\r\n"; 
-$mailheader .= "Reply-To: ".$_POST["email"]."\r\n"; 
-$mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
-$MESSAGE_BODY = "Name: ".$_POST["name"]."<br>"; 
-$MESSAGE_BODY .= "Email: ".$_POST["email"]."<br>"; 
-$MESSAGE_BODY .= "Comment: ".nl2br($_POST["comment"])."<br>"; 
-mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader) or die ("Failure"); 
+<?php
+$name = $_POST['name'];
+$email = $_POST['email'];
+$phonenumber = $_POST['phonenumber'];
+$subject = $_POST['subject'];
+$message = $_POST['message'];
+$to = “contact@gmail.com”;
+if(empty($name) OR empty($email) OR empty($subject) OR empty($message)){
+echo “<div class=’errors’>คุณกรอกข้อมูลไม่ครบทุกช่อง</div>”;
+}else{
+@mail($to, $subject, $message,”From: $name  <$email>”);
+echo “<div class=’pass’>ได้รับข้อมูลเรียบร้อย ทางเราจะรีบติดต่อกลับท่านโดยเร็วที่สุด ขอบคุณมากค่ะ</div>”;
+}
 ?>
