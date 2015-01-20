@@ -103,7 +103,7 @@
 							สำหรับท่านที่ต้องการหลีกหนีความแออัด และความวุ่นวายในตัวเมือง ซึ่งต้องการความเป็นส่วนตัว คำตอบเดียวของคุณ คือ บ้านพักท็อปวิว</p>
 						<div class="row">
 							<div class="8u 12u$(small)">
-								<form method="post" action="sendmail.php">
+								<!--<form method="post" action="sendmail.php">
 									<div class="row uniform 50%">
 										<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
 										<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
@@ -112,8 +112,41 @@
 								</form>
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
-								</ul>
+								</ul>-->
 								
+
+<form action="phpSendMailContactForm.php" method="post" name="frmMain">
+<table width="343" border="1">
+<tr>
+<td>To</td>
+<td><input name="txtTo" type="text" id="txtTo"></td> 
+</tr> 
+<tr>
+<td>Subject</td>
+<td><input name="txtSubject" type="text" id="txtSubject"></td>
+</tr>
+<tr>
+<td>Description</td>
+<td><textarea name="txtDescription" cols="30" rows="4" id="txtDescription"></textarea></td>
+</tr>
+<tr>
+<td>Form Name</td>
+<td><input name="txtFormName" type="text"></td>
+</tr>
+<tr>
+<tr>
+<td>Form Email</td>
+<td><input name="txtFormEmail" type="text"></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><input type="submit" name="Submit" value="Send"></td>
+</tr>
+</table>
+<br>
+<br>
+<br>
+</form>
 
 							</div>
 							<div class="4u$ 12u$(small)">
